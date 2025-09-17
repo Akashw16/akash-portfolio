@@ -20,12 +20,11 @@ export default function Contact() {
 
   return (
     <section id="contact" className="mt-16 relative">
-      <h2 className="text-3xl font-bold text-cyan-400 mb-8">Contact Me</h2>
+      <h2 className="section-title text-cyan-400">Contact Me</h2>
 
       <motion.form
         onSubmit={handleSubmit}
-        className="grid grid-cols-1 md:grid-cols-2 gap-6 glass p-8 rounded-2xl shadow-2xl"
-        whileHover={{ scale: 1.02, boxShadow: '0 0 20px #00fff7' }}
+        className="grid grid-cols-1 md:grid-cols-2 gap-6 glass p-8 rounded-2xl shadow-xl hover:scale-105 transition-transform neon-hover"
       >
         <input
           name="name"

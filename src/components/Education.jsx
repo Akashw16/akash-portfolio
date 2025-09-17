@@ -3,11 +3,11 @@ import { motion } from 'framer-motion'
 
 export default function Education() {
   return (
-    <section id="education" className="mt-16">
-      <h2 className="section-title">Education</h2>
+    <section id="education" className="mt-16 relative">
+      <h2 className="section-title text-cyan-400">Education</h2>
 
       <motion.div
-        className="glass p-8 rounded-2xl shadow-2xl hover:scale-105 transition-transform neon-hover"
+        className="glass p-8 rounded-2xl shadow-xl hover:scale-105 transition-transform neon-hover"
         whileHover={{ scale: 1.05, boxShadow: '0 0 20px #00fff7' }}
       >
         <h3 className="text-white text-2xl font-semibold">PG Diploma in Advanced Computing (DAC)</h3>

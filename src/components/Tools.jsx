@@ -24,7 +24,7 @@ export default function Tools() {
         {tools.map((tool, i) => (
           <motion.div
             key={i}
-            whileHover={{ scale: 1.15, rotate: 2, textShadow: '0px 0px 8px #00fff7' }}
+            whileHover={{ scale: 1.05, rotate: 2, textShadow: '0px 0px 8px #00fff7' }}
             className="glass p-5 rounded-2xl shadow-xl text-center text-white font-semibold cursor-default relative overflow-hidden neon-rotate"
           >
             {tool}
