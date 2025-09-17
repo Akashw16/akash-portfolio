@@ -47,7 +47,7 @@ export default function Hero() {
           <motion.a
             whileHover={{ scale: 1.05, boxShadow: '0 0 20px #00fff7' }}
             className="inline-flex items-center gap-2 py-3 px-6 rounded-xl glass border border-cyan-400 text-cyan-400 font-semibold hover:bg-cyan-400 hover:text-slate-900 transition-all"
-            href="/resume.pdf"
+            href={`${import.meta.env.BASE_URL}resume.pdf`} 
             download
           >
             Download Resume
