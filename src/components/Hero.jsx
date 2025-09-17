@@ -29,7 +29,7 @@ export default function Hero() {
         </motion.p>
 
         {/* CTA Buttons */}
-        <div className="flex gap-4 mt-6">
+        <div className="flex flex-wrap gap-4 mt-6">
           <motion.a
             whileHover={{ scale: 1.05, boxShadow: '0 0 20px #00fff7' }}
             className="inline-flex items-center gap-3 py-3 px-6 rounded-xl text-yellow-400 font-bold bg-gradient-to-r from-cyan-400 to-blue-500 glass hover:backdrop-brightness-125 transition-all relative overflow-hidden"
